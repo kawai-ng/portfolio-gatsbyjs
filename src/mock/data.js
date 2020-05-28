@@ -92,7 +92,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'http://slazebni.cs.illinois.edu/fall18/assignment5/dqn.gif',
+    img: 'https://media.giphy.com/media/UWK8PIRk155MRaQuMV/source.gif',
     title: 'Deep Q-Learning Neural Network Project',
     info: 'This project was adopted from the University of Illnois as a part of our Artificial Intelligence ' +
           'course. The main goal of the project is to develop a reinforcement learning neural network to play the ' +
