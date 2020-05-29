@@ -141,12 +141,7 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
+                      <p>
                         <Tilt
                           options={{
                             reverse: false,
@@ -164,7 +159,7 @@ const Projects = () => {
                             <img src={img} alt={"test"} />
                           </div>
                         </Tilt>
-                      </a>
+                      </p>
                     </div>
                   </Fade>
                 </Col>
