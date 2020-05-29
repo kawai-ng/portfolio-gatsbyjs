@@ -87,7 +87,7 @@ export const projectsData = [
           'Project requirements. The main function of Appointmeet is to allow students to schedule appointments ' +
           'and meetings with the professors.',
     info2: 'Languages used: Spring MVC | React.JS | SQL  ',
-    url: '',
+    url: 'https://github.com/ebenezerjeya/ApptApp',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -99,7 +99,7 @@ export const projectsData = [
           'Atari game Breakout, as depicted in the image. I utilized the Deep Q-Learning algorithm along with ' +
           'experience replay.',
     info2: 'Languages used: Python | PyTorch | TensorFlow ',
-    url: '',
+    url: 'https://colab.research.google.com/drive/1Zvgkrh52HIDBz7F9RAiQusX6Cn8kDWl7',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -110,7 +110,7 @@ export const projectsData = [
           'same name. The applications allows any number of players to compete and reach the finish line. ' + 
           'Each player rolls a dice and has a chance to encounter a special event after each roll.',
     info2: 'Languages used: Java | JavaFX',
-    url: '',
+    url: 'https://github.com/kawai-ng/jumanji',
     repo: '', // if no repo, the button will not show up
   },
 ];
