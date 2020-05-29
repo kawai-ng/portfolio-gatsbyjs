@@ -116,7 +116,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        Demo and Source Code incoming!
+                        Source Code
                       </a>
 
                       {repo && (
