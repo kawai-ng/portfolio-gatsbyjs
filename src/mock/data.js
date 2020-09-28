@@ -44,8 +44,8 @@ export const skillsData = [
   {
     name: 'React.JS',
     percentage: '90',
-    name2: 'C++',
-    percentage2: '75',
+    name2: 'AWS',
+    percentage2: '80',
   },
   {
     name: 'Javascript',
@@ -57,6 +57,7 @@ export const skillsData = [
 
 // ADDITIONAL SKILLS DATA
 export const addSkillsData = [
+  {title: 'C++'},
   {title: 'JavaFX'},
   {title: 'C'},
   {title: 'HTML5'},
@@ -65,12 +66,13 @@ export const addSkillsData = [
   {title: 'LINUX/UNIX Environments'},
   {title: 'Networking'},
   {title: 'Artificial Intelligence'},
+  {title: 'Agile Methodologies'},
   {title: 'Algorithms'},
   {title: 'Linear Algebra'},
   {title: 'Graph Theory'},
   {title: 'Django'},
   {title: 'Selenium'},
-  {title: 'TensorFlow'},
+  {title: 'PyTorch'},
   {title: 'REST APIs'},
   {title: 'MS Office'},
   {title: 'Project Management'},
@@ -81,9 +83,19 @@ export const addSkillsData = [
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'https://media.giphy.com/media/eInTL4skmcMLYrWUE3/giphy.gif',
+    title: 'Cambium Carbon Website',
+    info: 'The Cambium Carbon website is a platform I created for the company Cambium Carbon to fulfill ' +
+          'their needs in spreading their message and showcases their shop products to a meaningful ',
+    info2: 'Languages used: React.JS | Amazon Web Services (AWS) | SQL  ',
+    url: 'https://cambiumcarbon.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'https://media.giphy.com/media/TLaSNpXVlpqaawvgRp/source.gif',
     title: 'AppointME!',
-    info: 'Appointmeet is a project created by my friends and I in a team of five as a part of our Senior ' +
+    info: 'AppointME! is a project created by my friends and I in a team of five as a part of our Senior ' +
           'Project requirements. The main function of Appointmeet is to allow students to schedule appointments ' +
           'and meetings with the professors.',
     info2: 'Languages used: Spring MVC | React.JS | SQL  ',
@@ -92,7 +104,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'https://media.giphy.com/media/UWK8PIRk155MRaQuMV/source.gif',
+    img: 'http://slazebni.cs.illinois.edu/fall18/assignment5/dqn.gif',
     title: 'Deep Q-Learning Neural Network Project',
     info: 'This project was adopted from the University of Illnois as a part of our Artificial Intelligence ' +
           'course. The main goal of the project is to develop a reinforcement learning neural network to play the ' +

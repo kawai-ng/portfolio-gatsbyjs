@@ -126,7 +126,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Source Code
+                          Live
                         </a>
                       )}
                     </div>
@@ -141,7 +141,12 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <p>
+                      <a
+                        href={url || '#!'}
+                        target="_blank"
+                        aria-label="Project Link"
+                        rel="noopener noreferrer"
+                      >
                         <Tilt
                           options={{
                             reverse: false,
@@ -159,7 +164,7 @@ const Projects = () => {
                             <img src={img} alt={"test"} />
                           </div>
                         </Tilt>
-                      </p>
+                      </a>
                     </div>
                   </Fade>
                 </Col>
