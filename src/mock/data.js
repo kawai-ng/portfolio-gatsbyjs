@@ -86,7 +86,8 @@ export const projectsData = [
     img: 'https://media.giphy.com/media/eInTL4skmcMLYrWUE3/giphy.gif',
     title: 'Cambium Carbon Website',
     info: 'The Cambium Carbon website is a platform I created for the company Cambium Carbon to fulfill ' +
-          'their needs in spreading their message and showcases their shop products to a meaningful ',
+          'their needs in spreading their message and showcasing their shop products to a meaningful contribution ' +
+          'to combat climate change.',
     info2: 'Languages used: React.JS | Amazon Web Services (AWS) | SQL  ',
     url: 'https://cambiumcarbon.com',
     repo: '', // if no repo, the button will not show up
